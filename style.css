@@ -8,20 +8,29 @@ body{
 
 }
 .container{
-    /* width:80%;
-    margin:0 auto; */
+    display:grid;
+    grid-template-columns:auto;
+    gap:10px;
+}
+.scale-section{
+    font-size:0;
+    line-height:0;
 }
 .text-card,.card
 {
     box-shadow:0 0 2px #c8c3c3;
 }
+.text-card{
+    padding:2.35em;
+   
+
+}
 .text-title{
     text-align:center;
-    font-size:3.55rem;
+    font-size:2.85rem;
     font-family: "Sacramento", cursive;
-    font-weight: 400;
-    padding:.35em;
-   
+    max-width:250px;
+    margin:0 auto;
 }
 .images-one-section{
     display:grid;
@@ -39,19 +48,20 @@ body{
     grid-template-columns:50% auto;
     gap:10px; 
 }
-.travel-card{
+.travel-card,.travel-card-two,.travel-card-three{
     box-shadow:0 0 2px #c8c3c3;
-    padding:.5em;
+    padding:.75em;
 }
 .travel-card-content{
     font-style:italic;
     word-break:break-word;
-    
-    /* font-size:.9rem; */
+    font-family: "Open Sans", sans-serif;
+    font-size:.9rem;
 }
 .travel-card-author{
     margin-top:.45em;
-    /* font-size:.9rem; */
+    font-family: "Open Sans", sans-serif;
+    font-size:.9rem;
 }
 
 /* Impt to note */
@@ -101,13 +111,14 @@ body{
 }
 .flex-img{
     flex-shrink:0;
+  
    
 
 }
 
 .img-eight{
      width:100%;
-    height:10rem;
+    height:12rem;
     display:block;
     object-fit:cover; 
   
@@ -117,4 +128,45 @@ body{
     word-break:break-word;
 
 
+}
+
+.img-nine{
+    width:100%;
+    height:12rem;
+    object-fit:cover;
+  
+}
+.image-text-section{
+    display:grid;
+    grid-template-columns:50% auto;
+    gap:10px;
+
+}
+.img-ten{
+    width:100%;
+    height:12rem;
+    object-fit:cover;
+  
+}
+.simple-title{
+    font-family: "Sacramento", cursive;
+    padding:.75em;
+    text-align:center;
+    font-size:4rem;
+    font-weight:500;
+}
+.text-image-section-two{
+    display:grid;
+    grid-template-columns:auto 50%;
+    gap:10px;
+}
+.images-two-section{
+    display:grid;
+    grid-template-columns:auto auto;
+    gap:10px
+}
+.img-eleven,.img-twelve,.img-thirteen,.img-fourteen{
+    width:100%;
+    height:12rem;
+    object-fit:cover;
 }
