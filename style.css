@@ -29,7 +29,7 @@ body {
 }
 
 .text-title {
-    font-size:clamp(1rem, 5vw, 3rem); 
+    font-size:clamp(3rem, 5vw, 3rem); 
     font-family: "Sacramento", cursive;
     max-width: 250px;
     display: grid;
