@@ -30,7 +30,8 @@ body {
 
 .text-title {
     text-align: center;
-    font-size: 2.85rem;
+    /* font-size: 2.85rem; */
+    font-size: clamp(1rem, 20vw, 3rem); 
     font-family: "Sacramento", cursive;
     max-width: 250px;
     margin: 0 auto;
@@ -85,7 +86,7 @@ body {
 }
 
 .card-content {
-    padding: 1em;
+    padding: 1.5em;
 }
 
 .card-content .card-header,
@@ -144,7 +145,7 @@ body {
 }
 
 .flex-content {
-    padding: 0.5em;
+    padding: 1.5em;
     word-break: break-word;
 }
 
@@ -214,7 +215,7 @@ body {
     }
 
     .text-title {
-        font-size: 3rem;
+        /* font-size: 3rem; */
         margin: 50% auto;
     }
 
@@ -332,6 +333,10 @@ body {
         grid-row: 9/10;
     }
 
+    .img-thirteen{
+        height: 100%;
+
+    }
     .img-fourteen {
         grid-column: 3/4;
         grid-row: 10/11;
@@ -346,7 +351,7 @@ body {
     }
 
     .text-title {
-        font-size: 3rem;
+        /* font-size: 3rem; */
         margin: 50% auto;
     }
 
@@ -490,7 +495,7 @@ body {
     }
 
     .text-title {
-        font-size: 3rem;
+        /* font-size: 3rem; */
         margin: 50% auto;
     }
 
