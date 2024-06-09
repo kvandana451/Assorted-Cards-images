@@ -197,7 +197,7 @@ body {
 }
 
 /* media queries */
-@media screen and (min-width: 39.1875rem) {
+@media screen and (min-width: 627px) {
     .card {
         display: flex;
     }
