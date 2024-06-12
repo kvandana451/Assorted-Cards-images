@@ -29,7 +29,7 @@ body {
 }
 
 .text-title {
-    font-size:clamp(1rem, 5vw, 3rem); 
+    font-size:clamp(1rem, 10vw, 3rem); 
     font-family: "Sacramento", cursive;
     max-width: 250px;
     display: grid;
@@ -203,6 +203,9 @@ body {
     .card {
         display: flex;
     }
+    .img-five{
+        height:100%;
+    }
 }
 
 @media (min-width: 640px) {
@@ -257,8 +260,8 @@ body {
         grid-column: 1/4;
     }
 
-    .img-five,
-    .img-four {
+    .img-five
+     {
         height: 100%;
     }
 
@@ -287,7 +290,7 @@ body {
     }
     .img-eight{
         width:50%;
-        height:100%;
+   
     }
     .img-nine {
         grid-column: 3/4;
@@ -390,6 +393,9 @@ body {
     .img-three {
         grid-column: 3/4;
         grid-row: 3/4;
+    }
+    .img-four{
+        height:100%;
     }
 
     .images-second-section {
